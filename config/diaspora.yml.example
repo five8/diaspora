@@ -36,7 +36,7 @@ configuration: ## Section
     ## However changing http to https is okay and has no consequences.
     ## If you do change it you have to start over as it's hardcoded into
     ## the database.
-    #url: "https://example.org/"
+    #url: "http://momble.me/"
     
     ## Setting the bundle of certificate authorities (CA) certificates.
     ## This is operating system specific.
@@ -80,8 +80,8 @@ configuration: ## Section
     ## images to another host. If you for example set
     ## https://images.example.org here, all requests made to
     ## pictures under /uploads/images will be redirected to
-    ## https://images.example.org/uploads/images/...
-    #image_redirect_url: 'https://images.example.org'
+    ## http://images.momble.me/
+    #image_redirect_url: 'http://images.momble.me/'
     
     assets: ## Section
       ## Serve static assets via the appserver.
